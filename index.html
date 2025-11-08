@@ -1,13 +1,13 @@
 <!--Unit 4 Project
 Requirements
-[ ] Three Distinct CSS font-family Declarations
-[ ] One Google Font or Uploaded Font
+[ 3/3] Three Distinct CSS font-family Declarations
+[y ] One Google Font or Uploaded Font
 [y ] An Unordered **or** Ordered List (<ul> or <ol>)
-[ ] Three Images
+[ y] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include :hover Effect 
-[ no ] Feature 2 - Change the <li> markers
+[ yes ] Feature 2 - Change the <li> markers
 [ no ] Feature 3 - Change the Favicon
 [ no ] Feature 4 - Include Hand Drawn Border
 [ no ] Feature 5 - Use background-blend-mode: overlay
@@ -19,18 +19,39 @@ Select ONE Additional Feature to Add
 <head>
   <title>Unit 4 Project</title>
   <meta charset="utf-8">
-  <style>
 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <style>
+ body {background-color: #dcecf5;}
+ li { list-style: none; }
+  ul { padding-left: 1rem; }
+ li::before {
+  content: "☆";
+  color: rgb(179, 154, 14);
+  font-size: 20px;}
+  #Social {font-family:'Times New Roman', Times, serif;   }
+ #Control {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  }
+ #Motivation {font-family: 'Courier New', Courier, monospace; }
+ 
+ .shadows-into-light-regular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+ }
   </style>
 </head>
 <body>
 
-  <h1>My Unofficial Guide to Life</h1><br>
+  <h1 class="shadows-into-light-regular">My Unofficial Guide to Life</h1><br>
+  <h3 class="shadows-into-light-regular">By Lily Dunham</h3>
 
   
   <h3>Control</h3>
   <hr>
-  <p>It is so easy to feel that you have no control over your life. In an envirnment where so much is required and routines are locked it can feel impossible to make choices for yourself. Too often, people lose touch of the part of themselves full of initiative and drive. Its often easier to exist than to live. The trick to feeling as if you are happening to life just as much as it is happeing to you is simple. You have to make more choices. Choices give you control. When you wake up, be intentional with your outfit. Really think about what <em>you</em> want to wear. Try a new food for breakfast. Walk to school or try a different route than you normally take. Come home and bake a cake. We make so many choices each day but once we settle into routines, those choices are made for us. When you say no to yourself more than you say yes, you lose control. We live in a world with an abundance of freedom that we don't even realize we have. There is so much more that you can do then you can't do and if you don't let yourself try, you'll never know. Spontineity is your superpower. Once you start to live with the awareness of possibility then you no longer surrender your control to routines and to other people.  </p>
+  <p id="Control">
+     It is so easy to feel that you have no control over your life. In an envirnment where so much is required and routines are locked it can feel impossible to make choices for yourself. Too often, people lose touch of the part of themselves full of initiative and drive. Its often easier to exist than to live. The trick to feeling as if you are happening to life just as much as it is happeing to you is simple. You have to make more choices. Choices give you control. When you wake up, be intentional with your outfit. Really think about what <em>you</em> want to wear. Try a new food for breakfast. Walk to school or try a different route than you normally take. Come home and bake a cake. We make so many choices each day but once we settle into routines, those choices are made for us. When you say no to yourself more than you say yes, you lose control. We live in a world with an abundance of freedom that we don't even realize we have. There is so much more that you can do then you can't do and if you don't let yourself try, you'll never know. Spontineity is your superpower. Once you start to live with the awareness of possibility then you no longer surrender your control to routines and to other people.  </p>
   <br><br>
 
   <h3>Social Philosophy</h3>
@@ -41,16 +62,25 @@ Select ONE Additional Feature to Add
 
   <h3>Motivation</h3>
   <hr>
-  <p>Once you realize that you are the only person who can truly control what you do, you can finally start getting things done. You are the only person who can harness the wind in your sails and get your boat moving. If you can convince yourself that the work you are doing is worth doing then you will have endless motivation. If you can't bring yourself to start your homework, no logic from a teacher or parent will bring you to do it, you need to find ways to <em>want</em> to do it. Eat an oreo every time you finish an assignment. Work in a place you find beautiful. It has to come from you. Pick the rewards that will make you happy. Set up that system for yourself, and then learn to hold yourself accountable. This is how you create authentic and interestign work. If you aren't pushing yourself to be great, nobody else will be able to get you there. </p>
+  <p id="Motivation">Once you realize that you are the only person who can truly control what you do, you can finally start getting things done. You are the only person who can harness the wind in your sails and get your boat moving. If you can convince yourself that the work you are doing is worth doing then you will have endless motivation. If you can't bring yourself to start your homework, no logic from a teacher or parent will bring you to do it, you need to find ways to <em>want</em> to do it. Eat an oreo every time you finish an assignment. Work in a place you find beautiful. It has to come from you. Pick the rewards that will make you happy. Set up that system for yourself, and then learn to hold yourself accountable. This is how you create authentic and interestign work. If you aren't pushing yourself to be great, nobody else will be able to get you there. </p>
   <br><br>
   <hr>
 
-  <h4>Philosophers to turn to for more in depth answers:</h4>
+  <h4>Philosophers Reccomended for Further Study:</h4>
   <ul>
   <li>Henry David Thoreau</li>
   <li>Jean-Paul Sartre</li>
   <li>Simone de Beauvoir</li>
   <li> Plato</li>
   <li> T.S. Elliot (more of a poet than a philosopher but writes about overlapping themes)</li>
+  </ul>
+<br><br>
+<img src="https://i.pinimg.com/474x/58/f7/e4/58f7e41493f20db4c110c8fed41ac8c4.jpg" width="200">
+<img src="https://i.pinimg.com/236x/29/88/0b/29880bb7272d5bb6c03c361e9e81b410.jpg" width="200">
+<img src="https://cdn.shopify.com/s/files/1/0268/6510/7057/files/Study_for_a_Head_480x480.jpg?v=1672835071" width="200">
+<img src="https://daily-philosophy.com/john-shand-value-of-art/featured.jpg" width="200">
+<img src="https://64.media.tumblr.com/c114ed36b093e3a962db35a77eb0acac/08017795bd52b5b4-d5/s1280x1920/f760274df31b06d369a5d83045142de0ebded397.png" width="200">
+<img src="https://www.thecatholicthing.org/wp-content/uploads/tint4-1.jpg" width="200">
+<img src="https://i.pinimg.com/474x/66/11/d6/6611d6d50de59082f1b181b510f064c4.jpg" width="200">
 </body>
 </html>
